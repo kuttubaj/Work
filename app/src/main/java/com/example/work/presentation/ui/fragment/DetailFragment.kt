@@ -29,7 +29,7 @@ class DetailFragment : Fragment() {
         animeModel?.let {
             ivFragmentDetail.setImageResource(it.image)
             tvNameFargmentDetail.text = it.name
-            tvYearFargmentDetail.text = it.name
+            tvYearFargmentDetail.text = it.year
         }
     }
 
